@@ -1,0 +1,18 @@
+== JavaEE Samples Forge Addon
+
+=== Commands
+
+Search the JavaEE samples based on belonging category
+
+[source,console]
+----
+samples-by-category --category [name]
+----
+
+Search the JavaEE samples based on usage using categories recognized in given source file
+
+[source,console]
+----
+samples-by-similar --source x.java
+----
+
